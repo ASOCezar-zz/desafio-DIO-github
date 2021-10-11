@@ -1,2 +1,3 @@
-# desafio-DIO-github
-Desafio do Curso de Github da DIO
+# Repositório Desafio DIO Git/Github
+
+Desafio criado durante o desafio DIO de Git/Github
