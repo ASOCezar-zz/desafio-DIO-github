@@ -15,6 +15,7 @@
 
  - git init -> Comando para iniciar um repositório local dentro de algum diretório
  - git add . / git add * -> Comando para colocar em estado staged as mudanças feitas no diretório ou arquivo
+ - git status -> Verifica o estado (ciclo de vida) dos arquivos presentes dentro de um repositório git já iniciado (unmodified, modified, staged)
  - git commit -m <Mensagem> -> Comando para adicionar uma descrição às mudanças feitas em um repositório
  - git push origin (main ou master) -> Comando para enviar a repositórios remotos os arquivos já commitados
  - git clone <endereço do repositório ou SSH> -> Comando para fazer uma cópia de algum repositório remoto em seu repositório local
