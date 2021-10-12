@@ -122,34 +122,34 @@ Há 3 maneira de declarar arrays:
  - const arr = new Array(1, 2, 3);
  - const arr = Array.of(1, 2, 3);
  - const arr = Array();
- - const arr = Array.from(arrayLike); <!-- Pode ser utilizado para converter node lists em Arrays JS. -->
+ - const arr = Array.from(arrayLike); (Pode ser utilizado para converter node lists em Arrays JS. )
  
 Métodos de array:
- - push(); <!-- Adiciona um ou mais elementos na posição final do array e retorna o tamanho do array -->
- - pop(); <!-- Remove o ultimo elemento do array e retorna o elemento removido. --> 
- - unshift(); <!-- Adiciona um elemento no inicio do array e retorna o tamanho do array -->
- - shift(); <!-- Remove o primeiro item do array e retorna o item removido -->
- - concat(); <!-- Concatena dois arrays existentes e retorna um novo array -->
- - slice(); <!-- Fatia o array e retorna essa fatia, mas não mexe na estrutura do array original -->
- - splice(); <!-- Altera o array passando novos elementos enquanto remove elementos antigos e retorna os itens removidos -->
+ - push(); (Adiciona um ou mais elementos na posição final do array e retorna o tamanho do array )
+ - pop(); (Remove o ultimo elemento do array e retorna o elemento removido. ) 
+ - unshift(); (Adiciona um elemento no inicio do array e retorna o tamanho do array )
+ - shift(); (Remove o primeiro item do array e retorna o item removido )
+ - concat(); (Concatena dois arrays existentes e retorna um novo array )
+ - slice(); (Fatia o array e retorna essa fatia, mas não mexe na estrutura do array original )
+ - splice(); (Altera o array passando novos elementos enquanto remove elementos antigos e retorna os itens removidos )
 
 Iteração de Arrays:
- - forEach((item, index, arr) => {}); <!-- Passa por cada item dentro de um array e realiza uma função indicada, não retorna nada por padrão -->
- - map((item, index, arr) => {}); <!-- Passa por cada item dentro de um array e realiza uma função indicada e retorna um novo array, sem mexer na estrtura do array padrão -->
- - flat(); <!-- Retorna um novo array com todos os elementos de um sub-array concatenados de forma recursiva de acordo com a profundidade especificada (depth) -->
- - flatMap(); <!-- Retorna um novo array e executa um flat de profundidade -->
- - keys(); <!-- Retorna um Array Iterator que contém as chaves para cada elemento do array -->
- - values(); <!-- Retorna um Array Iterator que contém os valores para cada elemento do array -->
- - entries(); <!-- Retorna o par chave/valor para cada elemento do array, criando um Iterator -->
- - find(); <!-- Lê o array e retorna o primeiro item que satisfaz uma condição -->
- - findIndex(); <!-- Retorna o index do priemiro item que satisfaz a condição -->
- - filter(); <!-- Retorna um array com todos os valores que satisfazem uma condição --> 
- - indexOf(); <!-- Retorna o primeiro índice em que um item pode ser encontrado em um array -->
- -lastIndexOf(); <!-- Retorna o último índice em que um item pode ser encontrado em um array -->
- - includes(); <!-- Verifica a existência de um item dentro de um array e retorna true ou false -->
- - some(); <!-- Verifica se algum item dentro do array satisfaz uma condição e retorna true ou false -->
- - sort(); <!-- Ordena elementos de um array dada uma determinada condição -->
- - reverse(); <!-- Inverte os itens dentro do array -->
- - join(); <!-- Transforma um array em uma string com os itens separados por um delimitador -->
- - reduce(); <!-- Itera cada posição do array e retorna um novo tipo de dado de acordo com o que for determinado -->
+ - forEach((item, index, arr) => {}); (Passa por cada item dentro de um array e realiza uma função indicada, não retorna nada por padrão )
+ - map((item, index, arr) => {}); (Passa por cada item dentro de um array e realiza uma função indicada e retorna um novo array, sem mexer na estrtura do array padrão )
+ - flat(); (Retorna um novo array com todos os elementos de um sub-array concatenados de forma recursiva de acordo com a profundidade especificada (depth) )
+ - flatMap(); (Retorna um novo array e executa um flat de profundidade )
+ - keys(); (Retorna um Array Iterator que contém as chaves para cada elemento do array )
+ - values(); (Retorna um Array Iterator que contém os valores para cada elemento do array )
+ - entries(); (Retorna o par chave/valor para cada elemento do array, criando um Iterator )
+ - find(); (Lê o array e retorna o primeiro item que satisfaz uma condição )
+ - findIndex(); (Retorna o index do priemiro item que satisfaz a condição )
+ - filter(); (Retorna um array com todos os valores que satisfazem uma condição ) 
+ - indexOf(); (Retorna o primeiro índice em que um item pode ser encontrado em um array )
+ -lastIndexOf(); (Retorna o último índice em que um item pode ser encontrado em um array )
+ - includes(); (Verifica a existência de um item dentro de um array e retorna true ou false )
+ - some(); (Verifica se algum item dentro do array satisfaz uma condição e retorna true ou false )
+ - sort(); (Ordena elementos de um array dada uma determinada condição )
+ - reverse(); (Inverte os itens dentro do array )
+ - join(); (Transforma um array em uma string com os itens separados por um delimitador )
+ - reduce(); (Itera cada posição do array e retorna um novo tipo de dado de acordo com o que for determinado )
  
