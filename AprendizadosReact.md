@@ -97,7 +97,10 @@ module.exports = {
 };
 
 ```
-2. comando npm i -D webpack webpack-cli
+2. 
+```Bash
+comando npm i -D webpack webpack-cli
+```
 3. Adicionar script build no package json:
 
 ```JavaScript
@@ -106,7 +109,10 @@ module.exports = {
   "dev": "webpack --mode development"
 }
 ```
-4. npm i -D @babel/core babel-loader @babel/preset-env @babel/preset-react
+4. 
+```Bash
+npm i -D @babel/core babel-loader @babel/preset-env @babel/preset-react
+```
 5. Criar o arquivo .babelrc
 
 ```JavaScript
@@ -117,7 +123,10 @@ module.exports = {
   ]
 }
 ```
-6. npm i -D html-webpack-plugin
+6.
+```Bash
+npm i -D html-webpack-plugin
+```
 7. 
 
 ```JavaScript
@@ -155,7 +164,10 @@ module.exports = {
 };
 
 ```
-8. npm i -D webpack-dev-server
+8.
+```Bash
+npm i -D webpack-dev-server
+```
 9. Adicionar o script
 
 ```JavaScript
